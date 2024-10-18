@@ -16,7 +16,7 @@ Vinay is exploring AWS and Terraform, and this module is part of his journey to 
 module "s3_bucket" {
   source = "./terraform-s3-module"
 
-  bucket_name           = "my-s3-bucket"
+  bucket_name           = "vinaysunhare-s3-bucket"
   acl                   = "private"
   versioning            = true
   logging_target_bucket = "log-bucket"
